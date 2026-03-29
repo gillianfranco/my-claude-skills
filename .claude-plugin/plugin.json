@@ -1,0 +1,19 @@
+{
+  "name": "gillian-plugin",
+  "description": "My personal plugins",
+  "version": "1.0.0",
+  "author": {
+    "name": "Gillian Melo Franco",
+    "url": "https://github.com/gillianfranco"
+  },
+  "repository": "https://github.com/gillianfranco/my-claude-skills",
+  "license": "MIT",
+  "keywords": [
+    "gillian-plugins",
+    "gillian-claude-skills",
+    "obsidian",
+    "markdown",
+    "notes",
+    "obsidian-link-auditor"
+  ]
+}
