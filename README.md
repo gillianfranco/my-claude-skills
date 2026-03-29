@@ -4,8 +4,6 @@
 
 Este repositório contém múltiplas skills que estendem as funcionalidades do Claude Code. Cada skill é um complemento autossuficiente que pode ser invocado dentro do Claude Code para realizar tarefas específicas.
 
----
-
 ## Skills Disponíveis
 
 ### 1. **Obsidian Link Auditor**
@@ -30,8 +28,6 @@ Audita e melhora os links internos entre notas Obsidian (`.md`) em uma pasta usa
 
 [Como usar →](./.claude/skills/obsidian-link-auditor/README.md)
 
----
-
 ## Instalação em Outros Projetos
 
 Como o plugin não está publicado em um marketplace, a forma de usá-lo em outros projetos é clonar este repositório e criar um link simbólico para o diretório global de skills do Claude Code.
@@ -53,8 +49,6 @@ As skills estarão disponíveis automaticamente em todos os projetos.
 ```bash
 cd ~/my-claude-skills && git pull origin main
 ```
-
----
 
 ## Estrutura do Projeto
 
