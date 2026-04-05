@@ -6,27 +6,25 @@ Este repositório contém múltiplas skills que estendem as funcionalidades do C
 
 ## Skills Disponíveis
 
-### 1. **Obsidian Link Auditor**
+### 1. **Obsidian Study Notes Organizer**
 
-Audita e melhora os links internos entre notas Obsidian (`.md`) em uma pasta usando o Obsidian CLI (com fallback para Python quando o CLI não estiver disponível).
+Audita e melhora os links internos de um vault Obsidian completo (`.md`) usando o Obsidian CLI (com fallback para Python quando o CLI não estiver disponível).
 
 **O que faz:**
 
-- Verifica e organiza a seção `### Related:` em cada nota
-- Adiciona links para o arquivo pai (índice) automaticamente
-- Identifica relações conceituais entre arquivos
-- Consulta backlinks via Obsidian CLI para mapear conexões existentes
-- Remove links irrelevantes (opcional)
-- Adiciona links inline contextuais (opcional)
+- Executa 5 fases cobrindo o vault inteiro: auditoria intra-pasta, remoção de links quebrados, cross-folder linking, criação do índice central do vault e adição do link do vault em todas as notas
+- Aplica skip inteligente: arquivos já corretos são pulados automaticamente
+- Opera via Obsidian CLI (preferencial) ou Python direto no sistema de arquivos (fallback)
 
 **Quando usar:**
 
-- Organizar ou melhorar conexões entre notas markdown
-- Auditar a seção "Related" de arquivos Obsidian
-- Garantir que todas as notas contenham link do arquivo pai
-- Revisar completude de links entre notas
+- Organizar ou melhorar conexões entre notas de todo o vault
+- Remover links quebrados ou que apontam para arquivos inexistentes
+- Criar ou atualizar o arquivo índice central do vault
+- Garantir que todas as notas tenham link do arquivo pai e do vault
+- Adicionar relações interdisciplinares entre matérias diferentes
 
-[Como usar →](./.claude/skills/obsidian-link-auditor/README.md)
+[Como usar →](./.claude/skills/obsidian-study-notes-organizer/README.md)
 
 ## Instalação em Outros Projetos
 
@@ -58,7 +56,7 @@ my-claude-skills/
 ├── .claude-plugin/
 │   └── plugin.json                    ← Manifesto do plugin
 └── .claude/skills/
-    └── obsidian-link-auditor/
+    └── obsidian-study-notes-organizer/
         ├── SKILL.md                   ← instruções para o Claude
         └── README.md                  ← documentação para humanos
 ```
