@@ -26,6 +26,27 @@ Audita e melhora os links internos de um vault Obsidian completo (`.md`) usando 
 
 [Como usar →](./.claude/skills/obsidian-study-notes-organizer/README.md)
 
+---
+
+### 2. **Idoso e Idosa Article Creator**
+
+Gera artigos de blog completos, otimizados para SEO e ranqueamento no Google, para o site **idosoeidosa.com.br**.
+
+**O que faz:**
+
+- Pesquisa fontes confiáveis na web (OMS, Ministério da Saúde, IBGE, CFM, SBGG) antes de escrever
+- Estrutura o conteúdo com introdução, mínimo de 5 seções H3, quebra de crença, cluster temático, conclusão e referências ABNT
+- Aplica regras editoriais de tom, extensão (800–1.800 palavras) e escrita otimizada para mobile
+- Entrega o artigo em blocos HTML Gutenberg, pronto para colar no editor de código do WordPress
+
+**Quando usar:**
+
+- Criar artigos sobre saúde, rotina, direitos, bem-estar ou cuidados com idosos
+- Produzir conteúdo SEO para o blog idosoeidosa.com.br
+- Gerar posts com estrutura E-E-A-T e referências confiáveis
+
+[Como usar →](./.claude/skills/idosoeidosa-article-creator/README.md)
+
 ## Instalação em Outros Projetos
 
 Como o plugin não está publicado em um marketplace, a forma de usá-lo em outros projetos é clonar este repositório e criar um link simbólico para o diretório global de skills do Claude Code.
@@ -56,7 +77,10 @@ my-claude-skills/
 ├── .claude-plugin/
 │   └── plugin.json                    ← Manifesto do plugin
 └── .claude/skills/
-    └── obsidian-study-notes-organizer/
+    ├── obsidian-study-notes-organizer/
+    │   ├── SKILL.md                   ← instruções para o Claude
+    │   └── README.md                  ← documentação para humanos
+    └── idosoeidosa-article-creator/
         ├── SKILL.md                   ← instruções para o Claude
         └── README.md                  ← documentação para humanos
 ```
